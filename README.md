@@ -16,3 +16,5 @@ Along with the above I have added few other functionlities like,
 4) Galleries and Images page will be displayed in a Grid view.
 5) User can Delete or Rename a gallery.
 6) Delete an image.
+
+This application is to test the basics of Google App Engine.
