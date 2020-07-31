@@ -17,4 +17,9 @@ Along with the above I have added few other functionlities like,
 5) User can Delete or Rename a gallery.
 6) Delete an image.
 
+To run this application,
+1) Either you can download the google app engine desktop application
+2) Can install google cloud sdk and deploy in local using command ./devappserver
+3) Or Deploy to cloud and test.
+
 This application is to test the basics of Google App Engine.
