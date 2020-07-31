@@ -1,0 +1,69 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;			
+}	
+.footer {
+    padding: 15px 0px 10px 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #222;
+    border-color: #080808;			
+}	
+.img-wraps {
+    position: relative;
+    display: inline-block;
+   
+    font-size: 0;
+}
+.img-wraps .closes {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    z-index: 100;
+    background-color: #FFF;
+    padding: 4px 3px;
+    
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+   
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    border-radius: 50%;
+    border:1px solid red;
+}
+.img-wraps:hover .closes {
+    opacity: 1;
+}
+
+/* Make the image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 68%;
+    left: 83%;
+    transform: translate(-75%, -75%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }

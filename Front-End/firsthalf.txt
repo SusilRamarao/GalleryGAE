@@ -1,0 +1,54 @@
+<html>
+    <head>
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        
+        <style>
+                        /* Make the image responsive */
+            .container img {
+                width: 100%;
+                height: auto;
+            }
+            
+            /* Style the button and place it in the middle of the container/image */
+            .container .btnedit {
+                position: absolute;
+                top: 85%;
+                left: 15%;
+                transform: translate(-30%, -30%);
+                -ms-transform: translate(-30%, -30%);
+                background-color: #555;
+                color: white;
+                font-size: 16px;
+                padding: 12px 24px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            
+            /* Style the button and place it in the middle of the container/image */
+            .container .btndelete {
+                position: absolute;
+                top: 85%;
+                left: 70%;
+                transform: translate(-30%, -30%);
+                -ms-transform: translate(-30%, -30%);
+                background-color: #555;
+                color: white;
+                font-size: 16px;
+                padding: 12px 24px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>	
+            
+        <div class="container">
+              <div class="row">
+        
